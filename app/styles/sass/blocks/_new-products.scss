@@ -3,11 +3,7 @@
     @include media-for (null, $sm){
         margin-bottom: 1rem;
     }
-    .swiper{
-        @include media-for (null, $sm){
-            overflow: hidden
-        }
-    }
+
     .new-product{
         border: 1px solid $light-gray;
         padding: 1.5rem 1rem;
