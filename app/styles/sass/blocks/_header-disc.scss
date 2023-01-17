@@ -1,0 +1,92 @@
+header{
+	font-size: 12px;
+	nav{
+		ul{
+			display: flex;
+			justify-content: space-between;
+			li{
+				a{
+					color: $light-gray;
+				}
+			}
+		}
+	}
+	span{
+		color: $black-text;
+		font-weight: 700;
+	}
+	.btn-wrap{
+		display: flex;
+		align-items: center;
+	}
+	.header-top{
+		color: $gray-text;
+		padding: 1rem 0;
+		border-bottom: 1px solid $light-gray;
+		font-weight: 700;
+	}
+	.header-down{
+		padding: 2rem 0;
+		font-weight: 600;
+	}
+	.logo{
+		a{
+			display: block;
+			img{
+				width: 100%;
+				@include media-for (null, $sm){
+					height: 100%;
+				}
+			}
+		}
+	}
+
+	.contacts-wrap{
+		span{
+			display:block;
+			text-align: right;
+			padding-right: 2.5rem;
+		}
+	}
+
+	.language-btn{
+		span{
+			color: $light-gray;
+			&:first-child{
+				margin-right: 1rem;
+			}
+		}
+
+		.active-language{
+			color: $black-text;
+			text-decoration: underline;
+		}
+	}
+
+	.input-wrap{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		border: 1px solid $light-gray;
+		input{
+			border: none;
+			width: 80%;
+			padding-left: .5rem;
+			&::placeholder{
+				color: $light-gray;
+				font-size: 16px;
+				font-weight: 400;
+				// font-family: Mo;
+			}
+		}
+		button{
+			width: 15%;
+			
+		}
+	}
+}
+.header-desc{
+	@include media-for (null, $sm){
+		display: none;
+	}
+}

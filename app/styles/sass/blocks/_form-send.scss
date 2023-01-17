@@ -1,0 +1,51 @@
+.form-send{
+    background: url(../images/dist/background-form.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    padding: 2rem 0;
+    @include media-for (null, $sm){
+       background-size: cover;
+    }
+    .form-send-wrap{
+        width: 35%;
+        margin: auto;
+        @include media-for (null, $sm){
+            width: 100%;
+        }
+    }
+    h3{
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    p{
+        margin-bottom: 1rem;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        button{
+            color: white;
+            background-color: $accent;
+            font-size: 16px;
+            font-weight: 600 !important;
+        }
+        label{
+            font-size: 16px;
+            font-weight: 600 !important;
+        }
+        input{
+            margin-bottom: 1rem;
+            border: none;
+            outline: none;
+            padding-left: .5rem;
+            height: 2.5rem;
+            &::placeholder{
+                color: $light-gray;
+            }
+        }
+    }
+}

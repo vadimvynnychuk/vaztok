@@ -1,0 +1,19 @@
+.section-top{
+    background-color: $accent;
+    padding: 2.5rem 0;
+    margin-bottom: 2rem;
+    @include media-for (null, $sm){
+		display: none;
+	}
+    .block-info{
+        display: flex;
+        align-items: center;
+        img{
+            display: block;
+            margin-right: 1rem;
+        }
+        p{
+            color: white;
+        }
+    }
+}

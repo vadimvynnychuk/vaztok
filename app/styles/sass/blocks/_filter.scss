@@ -1,0 +1,25 @@
+.filter-wrap{
+    background-color: $accent;
+    padding: 0rem .3rem .3rem;
+    margin-bottom: 2rem;
+
+    h4{
+        font-size: 14px;
+        color: white;
+        padding: 1rem 0;
+        margin-bottom: 0rem;
+        margin-left: .5rem;
+        text-transform: uppercase;
+    }
+    select{
+        display: block;
+        width: 100%;
+        outline: none;
+        border: none;
+        margin-bottom: 1rem;
+        height: 2.5rem;
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+}

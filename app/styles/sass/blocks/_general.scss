@@ -1,0 +1,62 @@
+// GENERAL PROJECT STYLES
+// font-family: 'Inter', sans-serif;
+// font-family: 'Manrope', sans-serif;
+// font-family: 'Montserrat', sans-serif;
+
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;   
+    transition: all .2s ease-in-out;
+    display: inline-block;
+    color: black;
+    &:hover{
+        color: $accent;
+    }
+
+}
+
+.overflow{
+    overflow: hidden;
+}
+
+.contacts-wrap{
+    span{
+        display:block;
+        text-align: right;
+        padding-right: 2rem;
+    }
+}
+
+button{
+    outline: none;
+    border: none;
+    background: none;
+    padding: .5rem 0rem;
+    transition: all .2s ease-in-out;
+}
+
+.right-col{
+    font-family: 'Inter', sans-serif;
+    h3{
+        font-size: 24px;
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+        font-weight: 700;
+        margin: 6rem 0rem 2rem;
+        @include media-for (null, $sm){
+            margin: 2rem 0rem 1rem;
+        }
+    }
+}
+
+
