@@ -5,30 +5,702 @@
 <head>
 
 	<meta charset="utf-8">
-	<!-- <base href="/"> -->
 
-	<title>OptimizedHTML 5</title>
-	<meta name="description" content="Startup HTML template OptimizedHTML 5">
+	<title></title>
+	<meta name="description" content="vaztok">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 	<link rel="icon" href="images/favicon.png">
-	<meta property="og:image" content="images/dist/preview.jpg">
 	
 	<link rel="stylesheet" href="css/app.min.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Manrope:wght@400;700&family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
 
-	<div style="max-width: 700px; margin: auto">
+	<header class="header-desc">
 
-		<img src="images/dist/preview.jpg" alt="Start HTML5 Template" style="width: 100%"><br><br>
-		<h2 class="heading">Welcome to startup HTML template OptimizedHTML 5!</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam reprehenderit nulla alias expedita a qui, pariatur doloremque ipsa fugit laboriosam odio iure recusandae laborum delectus praesentium magni reiciendis voluptatem. Sed.</p>
+			<div class="header-top">
+				<div class="container">
+					<div class="row justify-content-between align-items-center">
+						<div class="col-md-2">
+							<p>
+								Режим работы магазина:
+							</p>
+							<span>
+								9:00 - 19:00
+							</span>
+						</div>
+						<div class="col-md-6">
+							<nav>
+								<ul>
+									<li>
+										<a href="#">
+											О МАГАЗИНЕ
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											КОНТАКТЫ
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											АКЦИИ
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											ОПЛАТА И ДОСТАВКА
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											ПРОИЗВОДИТЕЛИ
+										</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<div class="col-md-3 d-flex justify-content-between align-items-center">
+							<button class="btn-wrap">
+								<span>Авторизироваться</span>
+								<img src="images/dist/user.svg" alt="user-button">
+							</button>
+		
+							<button class="btn-wrap language-btn justify-content-between">
+								<span class="active-language">
+									РУС 
+								</span>
+								
+								<span>
+									 УКР
+								</span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header-down">
+				<div class="container">
+					<div class="row justify-content-between align-items-center">
+						<div class="col-md-4">
+							<div class="logo">
+								<a href="/">
+									<img src="images/dist/logo.svg" alt="logo">
+								</a>
+							</div>
+						</div>
 
-	</div>
+						<div class="col-md-4">
+							<div class="input-wrap">
+								<input type="text" placeholder="Поиск товаров" name="" id="">
+								<button>
+									<img src="images/dist/search.svg" alt="search">
+								</button>
+							</div>
+						</div>
 
+						<div class="col-md-4 d-flex justify-content-between align-items-start">
+							<div class="contacts-wrap d-flex justify-content-between align-items-start">
+								<div class="col-l">
+									<a href="tel:+38(063) 240-44-29">
+										+38(063) 240-44-29
+									</a>
+									<a href="mailto:avaztok@gmail.com">
+										avaztok@gmail.com
+									</a>
+								</div>
+								<div class="col-r">
+									<a href="tel:+38(098) 429-28-12">
+										+38(098) 429-28-12
+									</a>
+									<a href="tel:+38(066) 091-72-99">
+										+38(066) 091-72-99
+									</a>
+									<span>
+										(viber)
+									</span>
+								</div>
+							</div>
+
+							<button class="btn-wrap">
+								<span>
+									Корзина
+								</span>
+								<img src="images/dist/shopping-cart.svg" alt="shopping-cart">
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+	</header>
+
+<header class="header-mob">
+    <div class="container">
+        <div class="row justify-content-between align-items-center">
+            <div class="col-2">
+                <div class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="col-8">
+                <div class="logo">
+                    <a href="/">
+                        <img src="images/dist/logo.svg" alt="logo">
+                    </a>
+                </div>
+            </div>
+            <div class="col-2">
+                <button class="btn-wrap">
+                    <img src="images/dist/shopping-cart.svg" alt="shopping-cart">
+                </button>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-7">
+                <div class="input-wrap ">
+                    <input type="text" placeholder="Поиск товаров" name="" id="">
+                    <button>
+                        <img src="images/dist/search.svg" alt="search">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+	<main>
+		<section class="section-top">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="block-info">
+                    <img src="images/dist/header-down-1.svg" alt="delivery">
+                    <p>
+                        Быстрая доставка
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="block-info">
+                    <img src="images/dist/header-down-2.svg" alt="">
+                    <p>
+                        Гарантия качества
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="block-info">
+                    <img src="images/dist/header-down-3.svg" alt="">
+                    <p>
+                        Возврат
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="block-info">
+                    <img src="images/dist/header-down-4.svg" alt="">
+                    <p>
+                        Онлайн консультация
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 ">
+					<div class="filter-wrap">
+    <h4>
+        Выберите  автомобиль
+    </h4>
+    
+    <select name="" id="">
+        <option value="" disabled>
+            Марка
+        </option>
+        <option value="" >
+            Марка
+        </option>
+        <option value="" >
+            Марка
+        </option>
+    </select>
+
+    <select name="" id="">
+        <option value="" disabled>
+            Модель
+        </option>
+        <option value="" >
+            Модель
+        </option>
+        <option value="" >
+            Модель
+        </option>
+    </select>
+
+</div>
+				</div>
+				<div class="col-md-9 right-col">
+					<section class="section-blog">
+    <h3>
+        БЛОГ
+    </h3>
+
+    <div class="title-img-blog">
+        <img src="images/dist/Photo-blog.png" alt="photo-blog">
+        <p>
+            Как выбрать и купить качественные запчасти на Citroen?
+        </p>
+    </div>
+
+    <p>
+        Сегодня на дорогах можно встретить значительное количество автомобилей марки Citroen. В этом нет совершенно ничего удивительного, ведь транспортные средства производятся в ближнем зарубежье, поэтому стоимость их, если сравнивать с другими марками, не слишком высока. Такие машины нередко могут выходить из строя. Если у вас возникла необходимость приобрести
+     комплектующие для своего автомобиля, обратитесь в наш интернет-магазин запчастей в Украине.
+    </p>
+
+    <ul>
+        <li>
+            Товар обязательно должен быть качественно упакован. Любой хороший производитель дорожит репутаций. Поэтому на обертке/коробке не должно быть размытых надписей, здесь не место некачественным материалам. Обязательно наличие описания товара, однако оно может присутствовать внутри упаковки на отдельном листе.
+        </li>
+        <li>
+            Стоит обратить внимание на запчасти, которые поставляются смазанными. Это должно быть сделано хорошо и идентично на всех деталях. Отсутствие или разное количество смазки на однотипных запчастях может сказать о том, что перед вами подделка.
+        </li>
+        <li>
+            Материал, из которого производится деталь, должен подвергаться хорошей обработке, отличаться высоким качеством. Если на руках остаются следы различных красящих составов, большой вероятностью является наличие перед вами контрафактной детали.
+        </li>
+        <li>
+            Качество производства изделий может сказать о многом. Все сварные швы, склепки, другие виды соединений должны быть одинаковыми. Здесь не место неровностям, заусенцам.
+        </li>
+    </ul>
+
+
+</section>
+					<section class="similar_posts">
+    <h3>
+        ПОХОЖИЕ ПУБЛИКАЦИИ
+    </h3>
+
+    <div class="row">
+        <div class="col-md-4 px-0">
+            <div class="similar_posts-block">
+                <h5>
+                    Описание недостатков автомобиля Opel
+                </h5>
+
+                <div class="img-wrap">
+                    <img src="images/dist/similar_img.png" alt="">
+                </div>
+
+                <p>
+                    Легковые автомобили Опель – чрезвычайно надёжная техника. 
+                    Они ездят по нашим дорогам уже более 30 лет. Некоторые автолюбители используют.
+                </p>
+
+                <a href="#">
+                    Читать далее
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4  px-md-1 px-0">
+            <div class="similar_posts-block">
+                <h5>
+                    Где покупать оригинальные запчасти на Mercedes по низким ценам?
+                </h5>
+
+                <div class="img-wrap">
+                    <img src="images/dist/similar_img2.png" alt="">
+                </div>
+
+                <p>
+                    Можно отправиться в автомагазин, где на оригинальные запчасти приходится накрутка 
+                    в размере 20-30%.
+                     Что бы каждый мог экономить на покупке запчастей автомобиля...
+                </p>
+
+                <a href="#">
+                    Читать далее
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4 px-md-1 px-0">
+            <div class="similar_posts-block">
+                <h5>
+                    Самые востребованные запчасти к автомобилям Skoda
+                </h5>
+
+                <div class="img-wrap">
+                    <img src="images/dist/similar_img3.png" alt="">
+                </div>
+
+                <p>
+                    Среди владельцев автомобилей Skoda, попавших в ДТП,
+                     высоким спросом пользуются различные элементы кузова. 
+                     Таковыми являются капоты, бамперы...
+                </p>
+                
+                <a href="#">
+                    Читать далее
+                </a>
+            </div>
+        </div>
+    </div>
+
+</section>
+					<section class="new-products">
+    <h3>
+        НОВЫЕ ТОВАРЫ
+    </h3>
+
+    <div class="swiper new-product-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="new-product">
+
+                <span class="label-new">
+                    Новинка
+                </span>
+
+                <a href="#">
+                    <div class="img-wrap">
+                        <img src="images/dist/image -product.png" alt="product">
+                    </div>
+                </a>
+
+                <h5>
+                    Уголки зеркала ВАЗ 2105 глухие комплект 2+2 Завод
+                </h5>
+
+                <div class="peoduct-bottom">
+                    <div class="col-l">
+                        <span class="price">
+                            267 ₴
+                        </span>
+
+                        <span class="in-stoke">
+                            Есть в наличии
+                        </span>
+                    </div>
+
+                    <div class="col-r">
+                        <button>
+                            <img src="images/dist/shopping-cart.svg" alt="shopping-cart">
+                        </button>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="new-product">
+
+                <span class="label-new">
+                    Новинка
+                </span>
+
+                <a href="#">
+                    <div class="img-wrap">
+                        <img src="images/dist/image -product.png" alt="product">
+                    </div>
+                </a>
+
+                <h5>
+                    Уголки зеркала ВАЗ 2105 глухие комплект 2+2 Завод
+                </h5>
+
+                <div class="peoduct-bottom">
+                    <div class="col-l">
+                        <span class="price">
+                            267 ₴
+                        </span>
+
+                        <span class="in-stoke">
+                            Есть в наличии
+                        </span>
+                    </div>
+
+                    <div class="col-r">
+                        <button>
+                            <img src="images/dist/shopping-cart.svg" alt="shopping-cart">
+                        </button>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="new-product">
+
+                <span class="label-new">
+                    Новинка
+                </span>
+
+                <a href="#">
+                    <div class="img-wrap">
+                        <img src="images/dist/image -product.png" alt="product">
+                    </div>
+                </a>
+
+                <h5>
+                    Уголки зеркала ВАЗ 2105 глухие комплект 2+2 Завод
+                </h5>
+
+                <div class="peoduct-bottom">
+                    <div class="col-l">
+                        <span class="price">
+                            267 ₴
+                        </span>
+
+                        <span class="in-stoke">
+                            Есть в наличии
+                        </span>
+                    </div>
+
+                    <div class="col-r">
+                        <button>
+                            <img src="images/dist/shopping-cart.svg" alt="shopping-cart">
+                        </button>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="new-product">
+
+                <span class="label-new">
+                    Новинка
+                </span>
+
+                <a href="#">
+                    <div class="img-wrap">
+                        <img src="images/dist/image -product.png" alt="product">
+                    </div>
+                </a>
+
+                <h5>
+                    Уголки зеркала ВАЗ 2105 глухие комплект 2+2 Завод
+                </h5>
+
+                <div class="peoduct-bottom">
+                    <div class="col-l">
+                        <span class="price">
+                            267 ₴
+                        </span>
+
+                        <span class="in-stoke">
+                            Есть в наличии
+                        </span>
+                    </div>
+
+                    <div class="col-r">
+                        <button>
+                            <img src="images/dist/shopping-cart.svg" alt="shopping-cart">
+                        </button>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="new-product">
+
+                <span class="label-new">
+                    Новинка
+                </span>
+
+                <a href="#">
+                    <div class="img-wrap">
+                        <img src="images/dist/image -product.png" alt="product">
+                    </div>
+                </a>
+
+                <h5>
+                    Уголки зеркала ВАЗ 2105 глухие комплект 2+2 Завод
+                </h5>
+
+                <div class="peoduct-bottom">
+                    <div class="col-l">
+                        <span class="price">
+                            267 ₴
+                        </span>
+
+                        <span class="in-stoke">
+                            Есть в наличии
+                        </span>
+                    </div>
+
+                    <div class="col-r">
+                        <button>
+                            <img src="images/dist/shopping-cart.svg" alt="shopping-cart">
+                        </button>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+
+
+
+</section>
+				</div>
+			</div>
+		</div>
+		<section class="form-send">
+    <div class="container">
+        <div class="form-send-wrap">
+            <h3>
+                СВЯЖИСЬ С НАМИ
+            </h3>
+            <p>
+                Мы вам перезвоним!
+            </p>
+
+            <form action="">
+                <label for="username">
+                    Имя
+                </label>
+                <input type="text" id="username" placeholder="Анатолий">
+
+                <label for="mail">
+                    E-mail
+                </label>
+                <input type="text" id="mail" placeholder="yourmail@gmail.com">
+
+                <label for="tel">
+                    Телефон
+                </label>
+                <input type="tel" id="tel" placeholder="+380 000 00 00">
+
+                <button type="submit">
+                    Отправить
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
+	</main>
+
+	<footer>
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-md-4">
+					<div class="logo">
+						<a href="/">
+							TECHNO-СAR.COM.UA
+						</a>
+
+						<p class="d-md-block d-none">
+							Ваш верный помощник интернет-магазин запчастей для автомобилей 
+							ВАЗ – vaz-tok.com.ua, здесь вы найдёте всё необходимое для своего авто,
+							 начиная от гайки и заканчивая кузовными элементами.
+						</p>
+
+						<img class="footer-visa-desck" src="images/dist/master-card.png" alt="visa-master-cart">
+					</div>
+				</div>
+
+				<div class="col-md-2 col-6 oder-md-1 order-2">
+					<h4>
+						О магазине
+					</h4>
+					<nav class="mb-md-0 mb-3">
+						<ul>
+							<li>
+								<a href="#">
+									О магазине
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Контакты
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Акции
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Оплата и доставка
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Производители
+								</a>
+							</li>
+						</ul>
+					</nav>
+
+					<img class="footer-visa-mob" src="images/dist/master-card.png" alt="visa-master-cart">
+				</div>
+
+				<div class="col-md-2 oder-md-3 order-1 mb-md-0 mb-3">
+					<h4>
+						График работы
+					</h4>
+
+					<p>
+						Пн-Сб с 9:00 до 19:00
+					</p>
+					
+					<p>
+						Воскресенье -  онлайн заказы
+					</p>
+				</div>
+
+				<div class="col-md-3 col-5 oder-md-0 order-3">
+					<h4>
+						Контакты
+					</h4>
+
+					<div class="contacts-wrap d-flex justify-content-between align-items-start">
+						<div class="col-l mb-md-0 mb-3">
+							<a href="viber://add?number=380984292812">
+								+38(098) 429-28-12
+							</a>
+							<a href="viber://add?number=380660917299">
+								+38(066) 091-72-99
+							</a>
+							<span>
+								(viber)
+							</span>
+							<a href="tel:+38(063) 240-44-29">
+								+38(063) 240-44-29
+							</a>
+							<a href="mailto:avaztok@gmail.com">
+								avaztok@gmail.com
+							</a>
+						</div>
+						<div class="col-r">
+							<a class="me-2 d-block" href="#">
+								<img width="40px" src="images/dist/facebook.svg" alt="facebook">
+							</a>
+
+							<a href="#">
+								<img width="40px" src="images/dist/twiter.svg" alt="twiter">
+							</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</footer>
+	
 	<script src="js/app.min.js"></script>
 
 </body>
