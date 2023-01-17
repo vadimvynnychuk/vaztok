@@ -5,7 +5,7 @@
     }
     .swiper{
         @include media-for (null, $sm){
-            overflow: visible;
+            overflow: hidden
         }
     }
     .new-product{
