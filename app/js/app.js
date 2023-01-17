@@ -27,13 +27,13 @@ document.addEventListener('DOMContentLoaded', () => {
 		breakpoints: {
 			320: {
 				slidesPerView: 2.2,
-				spaceBetween: 20,
+				spaceBetween: 10,
 	
 			},
 			  // when window width is >= 480px
 			480: {
 				slidesPerView: 2.2,
-				spaceBetween: 20,
+				spaceBetween: 10,
 			},
 			  // when window width is >= 640px
 			820: {
