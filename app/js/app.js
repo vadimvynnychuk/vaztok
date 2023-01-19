@@ -49,13 +49,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	const body = document.querySelector("body"),
 	burger = document.querySelector(".burger"),
-	mobileMenu = document.querySelector(".navigation-header");
+	mobileMenu = document.querySelector(".navigation-header-mob"),
+	footer = document.querySelector("footer");
 
 	burger.addEventListener("click", (e) => {
 		e.preventDefault();
 		e.stopPropagation();
 		burger.classList.toggle("burger-active");
-		mobileMenu.classList.toggle("navigation-header-active");
+		mobileMenu.classList.toggle("navigation-header-mob-active");
 		body.classList.toggle("overflow");
+		footer.classList.toggle("footer-active");
 	});
+
+
+	//
+	// if($(".header-mob").css('display') == 'block'){
+	// 	$(".cart-page").css("margin-top", $(".header-mob").outerHeight()  + "px");
+	// }
 })

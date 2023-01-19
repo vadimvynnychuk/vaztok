@@ -51,4 +51,34 @@
         border: none;
         border-bottom: 1px solid $light-gray !important;
     }
+
+    .navigation-header-mob{
+        position:fixed;
+        z-index: 99;
+        left: 0;
+        top: 0;
+        height: 100%;
+        padding: 1rem 0;
+        background-color: white;
+        overflow: hidden;
+        top: -200%;
+        transition: all .5s ease-in-out;
+        ul{
+            text-align: center;
+            padding: 4rem 0 2rem;
+            li{
+                a{
+                    margin-bottom: 1rem;
+                    font-weight: 800;
+                }
+            }
+        }
+        .language-btn{
+            margin: auto;
+        }
+    }
+
+    .navigation-header-mob-active{
+        top: 0;
+    }
 }
