@@ -5,18 +5,32 @@
 //     }
 // }
 
+.product-discount-swiper{
+    .slide-product{
+        .price{
+           color: $red;
+        }
+    } 
+}
+
 
 .slide-product{
     border: 1px solid $light-gray;
     padding: 1.5rem 1rem;
-    .label-new{
-        color: $black-text;
-        background-color: $yellow;
+    .label-status{
         border-radius: 10px;
         padding: .3rem;
         font-size: 12px;
         font-weight: 700;
     } 
+    .label-new{
+        color: $black-text;
+        background-color: $yellow;
+    }
+    .label-discount{
+        color: white;
+        background-color: $red;
+    }
 
     .img-wrap{
         margin-bottom: 1rem;
