@@ -3,6 +3,10 @@
 // font-family: 'Manrope', sans-serif;
 // font-family: 'Montserrat', sans-serif;
 
+html {
+    scroll-behavior: smooth;
+}
+  
 
 ul{
     list-style: none;
@@ -59,12 +63,53 @@ button{
     }
 }
 
+.left-col{
+    font-family: 'Inter', sans-serif;
+    h4{
+        font-size: 14px;
+        color: white;
+        font-weight: 700;
+        padding: 1rem 1rem;
+        margin-bottom: 0rem;
+        text-transform: uppercase;
+        background-color: $accent;
+    }
+}
+
 .footer-active{
     position: fixed;
     bottom: 0;
     left: 0;
     z-index: 99;
     transition: all 1s ease-in-out;
+    padding: .6rem 0;
+    ul{
+        li{
+            a{
+                margin: 0;
+            }
+        }
+    }
+    h4{
+        margin-bottom: .3rem;
+    }
+    .logo{
+        a{
+            margin-bottom: .3rem;
+        }
+    }
+    .contacts-wrap{
+        a{
+            margin: 0;
+        }
+    }
+}
+
+.top-slide{
+    img{
+        width: 100%;
+        object-fit: cover;
+    }
 }
 
 

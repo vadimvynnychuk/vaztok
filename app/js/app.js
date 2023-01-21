@@ -16,14 +16,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	// Custom JS
 
+	//top slider
+
+	var topSlider = new Swiper(".top-slider", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        freeMode: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+    });
+
+    //new product slider
 	var swiper = new Swiper(".new-product-swiper", {
         slidesPerView: 4,
         spaceBetween: 30,
         freeMode: true,
-        // pagination: {
-        //   el: ".swiper-pagination",
-        //   clickable: true,
-        // },
 		breakpoints: {
 			320: {
 				slidesPerView: 2.2,
@@ -43,6 +52,31 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
     });
+
+	    //hot offers slider
+		var swiper = new Swiper(".hot-offers-swiper", {
+			slidesPerView: 4,
+			spaceBetween: 30,
+			freeMode: true,
+			breakpoints: {
+				320: {
+					slidesPerView: 2.2,
+					spaceBetween: 10,
+		
+				},
+				  // when window width is >= 480px
+				480: {
+					slidesPerView: 2.2,
+					spaceBetween: 10,
+				},
+				  // when window width is >= 640px
+				820: {
+					slidesPerView: 4,
+					spaceBetween: 30,
+				},
+			}
+	
+		});
 
 
 	//burger-menu

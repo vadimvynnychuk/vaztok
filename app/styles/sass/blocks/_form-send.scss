@@ -5,6 +5,7 @@
     background-size: 100%;
     color: white;
     padding: 2rem 0;
+    margin-top: 2rem;
     @include media-for (null, $sm){
        background-size: cover;
     }

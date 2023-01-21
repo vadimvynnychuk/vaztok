@@ -1,0 +1,13 @@
+.top-slider-section{
+    padding-bottom: 3rem;
+    overflow: hidden;
+    .top-slider{
+        overflow: visible;
+    }
+    .swiper-pagination{
+        bottom: -2rem;
+        .swiper-pagination-bullet-active{
+            background-color: $gray-text;
+        }
+    }
+}

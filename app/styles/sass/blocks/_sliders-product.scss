@@ -1,0 +1,64 @@
+// .new-products{
+//     margin-bottom: 7rem;
+//     @include media-for (null, $sm){
+//         margin-bottom: 1rem;
+//     }
+// }
+
+
+.slide-product{
+    border: 1px solid $light-gray;
+    padding: 1.5rem 1rem;
+    .label-new{
+        color: $black-text;
+        background-color: $yellow;
+        border-radius: 10px;
+        padding: .3rem;
+        font-size: 12px;
+        font-weight: 700;
+    } 
+
+    .img-wrap{
+        margin-bottom: 1rem;
+        height: 9rem;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+    }
+
+    h5{
+        font-size: 14px;
+        margin-bottom: 1rem;
+    }
+
+    .peoduct-bottom{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .col-l{
+        .price{
+            display: block;
+            font-size: 16px;
+            font-weight: 700;
+           }
+        .in-stoke{
+            display: block;
+            font-size: 12px;
+            color: $green;
+        }
+    }
+
+    button{
+        padding: 0;
+    }
+
+    
+}
+
+
+
