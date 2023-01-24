@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     //new-product slider
 
-	var swiper = new Swiper(".new-product-swiper", {
+	var newProduct = new Swiper(".new-product-swiper", {
         slidesPerView: 4,
         spaceBetween: 30,
         freeMode: true,
@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	//hot offers slider
 
-	var swiper = new Swiper(".hot-offers-swiper", {
+	var hotOffers = new Swiper(".hot-offers-swiper", {
 		slidesPerView: 4,
 		spaceBetween: 30,
 		freeMode: true,
@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     //product-discount-swiper slider
 
-	var swiper = new Swiper(".product-discount-swiper", {
+	var productDiscount = new Swiper(".product-discount-swiper", {
 		slidesPerView: 4,
 		spaceBetween: 30,
 		freeMode: true,
@@ -110,6 +110,35 @@ document.addEventListener('DOMContentLoaded', () => {
 	});
 
 
+	//partners-slider
+	var partnersSlider = new Swiper(".partners-swiper", {
+		slidesPerView: 5,
+		spaceBetween: 30,
+		freeMode: true,
+		breakpoints: {
+			320: {
+				slidesPerView: 2.2,
+				spaceBetween: 10,
+	
+			},
+			  // when window width is >= 480px
+			480: {
+				slidesPerView: 2.2,
+				spaceBetween: 10,
+			},
+			  // when window width is >= 640px
+			820: {
+				slidesPerView: 5,
+				spaceBetween: 30,
+			},
+		}
+
+	});
+
+
+
+
+
 	//burger-menu
 
 	const body = document.querySelector("body"),
@@ -131,4 +160,15 @@ document.addEventListener('DOMContentLoaded', () => {
 	// if($(".header-mob").css('display') == 'block'){
 	// 	$(".cart-page").css("margin-top", $(".header-mob").outerHeight()  + "px");
 	// }
+
+
+	//
+	
+
+	if( window.innerWidth >= 576){
+
+		$('.btn-category-car').css('display','block');
+		
+		
+	} 
 })

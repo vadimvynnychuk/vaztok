@@ -1,0 +1,11 @@
+.similar_post-wrap{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 1fr;
+    gap: 2.5rem 2rem;
+
+    @include media-for (null, $sm){
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+}

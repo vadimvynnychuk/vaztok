@@ -13,6 +13,13 @@
     } 
 }
 
+.partners-slider{
+    margin-bottom: 6rem;
+    @include media-for (null, $sm){
+        margin-bottom: 2rem;
+    }
+}
+
 
 .slide-product{
     border: 1px solid $light-gray;

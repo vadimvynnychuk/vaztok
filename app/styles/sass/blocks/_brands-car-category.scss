@@ -4,6 +4,12 @@
         grid-template-columns: repeat(5, 1fr);
         grid-auto-rows: 1fr;
         gap: 2.5rem 2rem;
+
+        @include media-for (null, $sm){
+            grid-template-columns: repeat(2, 1fr);
+            height: 52rem;
+            overflow: hidden;
+        }
     }
 
     .brand-wrap{
@@ -25,6 +31,17 @@
             text-align: center;
             font-weight: 700;
             font-size: 14px;
+            font-family: 'Montserrat', sans-serif;
         }
+    }
+
+    .btn-category-car{
+        // display: none;
+        text-align: right;
+        color: $accent;
+        display: block;
+        margin-left: auto;
+        margin-right: 0;
+        font-family: 'Inter', sans-serif;
     }
 }

@@ -45,6 +45,7 @@
 	},
 	"dependencies": {
 		"jq": "^1.7.2",
+		"jquery": "^3.6.3",
 		"swiper": "^8.4.5"
 	}
 }

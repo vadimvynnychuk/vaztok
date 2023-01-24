@@ -1,0 +1,14 @@
+.response-block{
+    .response_posts-block{
+        padding: 1rem;
+        background-color: #F9F9F9;
+        margin-bottom: 2rem;
+        h5{
+            font-size: 16px;
+            font-weight: 700;
+        }
+        span{
+            color: $gray-text;
+        }
+    }
+}
