@@ -7,8 +7,9 @@
 
         @include media-for (null, $sm){
             grid-template-columns: repeat(2, 1fr);
-            height: 52rem;
+            height: 55rem;
             overflow: hidden;
+            gap: 1.5rem 1rem;
         }
     }
 
@@ -16,10 +17,16 @@
         background-color: #F9F9F9;
         padding: 1rem 2rem;
         cursor: pointer;
+        @include media-for (null, $sm){
+            padding: 1rem 1rem;
+        }
         .img-wrap{
             width: 7rem;
             height: 6rem;
             margin-bottom: 1rem;
+            @include media-for (null, $sm){
+                margin: auto;
+            }
             img{
                 width: 80%;
                 object-fit: contain;
