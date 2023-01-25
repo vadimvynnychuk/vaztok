@@ -44,6 +44,7 @@
             outline: none;
             padding-left: .5rem;
             height: 2.5rem;
+            border-radius: 0;
             &::placeholder{
                 color: $light-gray;
             }
