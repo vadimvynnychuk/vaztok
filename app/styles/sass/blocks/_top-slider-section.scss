@@ -1,7 +1,7 @@
 .top-slider-section{
     padding-bottom: 7rem;
     @include media-for (null, $sm){
-        margin-bottom: 2rem;
+        padding-bottom: 2rem;
     }
     overflow: hidden;
     .top-slider{

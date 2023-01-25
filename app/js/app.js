@@ -143,8 +143,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	const body = document.querySelector("body"),
 	burger = document.querySelector(".burger"),
-	mobileMenu = document.querySelector(".navigation-header-mob"),
-	footer = document.querySelector("footer");
+	mobileMenu = document.querySelector(".navigation-header-mob");
 
 	burger.addEventListener("click", (e) => {
 		e.preventDefault();
@@ -152,8 +151,10 @@ document.addEventListener('DOMContentLoaded', () => {
 		burger.classList.toggle("burger-active");
 		mobileMenu.classList.toggle("navigation-header-mob-active");
 		body.classList.toggle("overflow");
-		footer.classList.toggle("footer-active");
+		
 	});
+
+
 
 
 	//
@@ -162,13 +163,9 @@ document.addEventListener('DOMContentLoaded', () => {
 	// }
 
 
-	//
 	
 
 	if( window.innerWidth >= 576){
-
 		$('.btn-category-car').css('display','block');
-		
-		
 	} 
 })

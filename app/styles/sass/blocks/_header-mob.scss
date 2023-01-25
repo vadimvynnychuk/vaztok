@@ -58,7 +58,10 @@
         left: 0;
         top: 0;
         height: 100%;
-        padding: 1rem 0;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 0 0;
         background-color: white;
         overflow: hidden;
         top: -200%;
@@ -80,5 +83,24 @@
 
     .navigation-header-mob-active{
         top: 0;
+    }
+
+    .footer{
+        padding: .5rem;
+        h4{
+            font-size: 16px;
+        }
+        .logo{
+            text-align: center;
+        }
+        .col-r{
+            display: flex;
+            justify-content: center;
+        }
+        .col-l{
+            span{
+                color: white;
+            }
+        }
     }
 }
