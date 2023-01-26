@@ -1,0 +1,20 @@
+.discounts-section{
+    h3{
+        display: none;
+    }
+    section{
+        margin-bottom: 5rem;
+    }
+
+    select{
+        display: block;
+        width: 100%;
+        outline: none;
+        border: 1px solid #C6C6C6;
+        margin-bottom: 1rem;
+        height: 2.5rem;
+        border-radius: 0;
+        padding: .3rem;
+        
+    }
+}
